@@ -1,13 +1,11 @@
-import { Container, Text, VStack } from "@chakra-ui/react";
+import React from 'react';
 
 const Index = () => {
   return (
-    <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
-      <VStack spacing={4}>
-        <Text fontSize="2xl">Welcome to Your New React App</Text>
-        <Text>This is a basic React application with Chakra UI for styling.</Text>
-      </VStack>
-    </Container>
+    <div>
+      <h1>Welcome to Your New React App</h1>
+      <p>This is a basic React application.</p>
+    </div>
   );
 };
 
